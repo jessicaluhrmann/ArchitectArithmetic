@@ -6,6 +6,11 @@ namespace ArchitectArithmetic
     {
         public static void Main(string[] args)
         {
+            CalculateTotalCost();
+        }
+
+        public static void CalculateTotalCost()
+        {
             var rectangleArea = Rectangles(2500, 1500);
             var circleArea = Circles(375) / 2;
             var triangleArea = Triangles(750, 500);
